@@ -28,3 +28,8 @@ body {
   background: image_url('papyrus-dark.png');
   box-shadow: 1px 3px #403c3c;
 }
+
+.navbar-inverse .navbar-brand {
+  font-family: 'alex_brushregular', sans-serif;
+  font-size: 26px;
+}
