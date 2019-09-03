@@ -33,3 +33,15 @@ body {
   font-family: 'alex_brushregular', sans-serif;
   font-size: 26px;
 }
+
+.pagination {
+  background: image_url('papyrus-dark.png');
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  padding: 0.5em 0.5em;
+  cursor: default; }
+  .pagination a, .apple_pagination span {
+    padding: 0.2em 0.3em;
+    font-family: 'alex_brushregular', sans-serif;
+    color: white;
+    }
