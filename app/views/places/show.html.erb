@@ -101,7 +101,7 @@
 <div class="photostorage col-4">
   <% @place.photos.each do |photo| %>
     <blockquote>
-      <%= photo.caption %>
+      <strong><%= photo.caption %></strong>
       <%= image_tag photo.picture.to_s, class: 'img-fluid' %>
     </blockquote>
   <% end %>
@@ -121,6 +121,7 @@
       <%= simple_form_for @photo, url: place_photos_path(@place) do |f| %>
         <div class="modal-body">
           <%= f.input :caption %>
+          <br />
           <%= f.input :picture %>
           <%= f.submit "Add a Photo", class: 'btn btn-primary' %>
         </div>
